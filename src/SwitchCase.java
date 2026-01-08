@@ -1,0 +1,28 @@
+
+public class SwitchCase {
+	public static void main(String[]args) {
+		int num=20;
+		switch(num) {
+		
+		case 5:
+			System.out.println("It Is 5");
+			break;
+			
+		case 10:
+			System.out.println("It Is 10");
+			break;
+			
+		case 15:
+			System.out.println("It Is 15");
+			break;
+			
+		case 20:
+			System.out.println("It Is 20");
+			break;
+			
+		default:
+			System.out.println("It Is Not Present");
+		}
+	}
+
+}
